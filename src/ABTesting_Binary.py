@@ -35,7 +35,7 @@ class AbTesting_Binary(AbTesting):
 
         min_samples_per_group = self.min_samples_per_group(alpha=alpha, power=power, two_tailed=two_tailed)
 
-        conf_simulation = self.simulation(iter_count=iter_count, two_tailed=two_tailed)
+        conf_simulation = self.simulation(iter_count=iter_count)
 
         simulation_interval = ((np.percentile(conf_simulation, alpha * 100 / 2),
                                 np.percentile(conf_simulation, (1 - alpha / 2) * 100))) if two_tailed else (
