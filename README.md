@@ -9,6 +9,12 @@ and retention data from : https://www.kaggle.com/datasets/arpitdw/cokie-cats.
 
 # Continuous Data
 
+Sample preview of the revenue data:
+
+![Revenue data](ab_images/continuous/head.png)
+
+The summary of the data :
+
 
 
 Feel free to explore the repository, contribute to ongoing projects, and share your feedback. 
