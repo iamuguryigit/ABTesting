@@ -29,7 +29,12 @@ statistical_calculations is a method created in AbTesting_Continuous class. It r
 
 ![Revenue data](ab_images/continuous/statistical_calculations.png)
 
-Simulation is a method created in an inherited AbTesting class.
+Simulation is a method created in an inherited AbTesting class. The only parameter is iteration counts and basically, it shuffles the data between ab groups and calculate the mean differences. Iteration count determines the count of this operation.
 
+![Revenue data](ab_images/continuous/cont_simulation.png)
+
+This is the main function. ab_conf_interval is a method created in AbTesting_Continuous class. Alpha is the first parameter showing the maximum limit you allow for the probability that your results are due to chance. two_tailed parameter is showing whether the difference between groups are important for both ways or in just one way. power is a parameter used to call the min_samples_per_group function. iter_count is used to call the simulation function. This method is calling all the functions and showing a comprehensive result for your test. It also contains two graphs, the first one is showing the result of shuffling and the second one is the result using central limit theorem.
+
+![Revenue data](ab_images/continuous/ab_conf_interval.png)
 
 Feel free to explore the repository, contribute to ongoing projects, and share your feedback. 
