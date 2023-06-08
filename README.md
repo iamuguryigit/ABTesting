@@ -7,7 +7,7 @@ _In order to obtain meaningful results from an A/B test, we utilize a concept ca
 There will be two parts including continuous (revenue) and binary (retention) targets. We will be using revenue data from : https://www.kaggle.com/datasets/sergylog/ab-test-data
 and retention data from : https://www.kaggle.com/datasets/arpitdw/cokie-cats. 
 
-# Continuous Data
+# Continuous (Revenue) Data
 
 Sample preview of the revenue data:
 
