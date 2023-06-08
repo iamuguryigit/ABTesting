@@ -37,4 +37,10 @@ This is the main function. ab_conf_interval is a method created in AbTesting_Con
 
 ![Revenue data](ab_images/continuous/ab_conf_interval.png)
 
+# Binary (Retention) Data
+
+All the things for AbTesting_Binary class is almost same with AbTesting_Continuous class. There is no cohens' d calculation and the rest is same except calculations. Therefore, please take a look at the project and contact me if needed.
+
+![Revenue data](ab_images/continuous/binaryresult.jpg)
+
 Feel free to explore the repository, contribute to ongoing projects, and share your feedback. 
