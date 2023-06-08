@@ -50,7 +50,7 @@ class AbTesting:
                                                                                                                                                                       "Your sanity check result is : ",
             check_result)
 
-    def simulation(self, iter_count=10000, two_tailed=False):
+    def simulation(self, iter_count=10000):
 
         simulation_result = []
 
