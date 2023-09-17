@@ -10,6 +10,10 @@ def preprocess_binary(path):
 
     return data
 
+def new_func():
+
+    return 2
+
 
 def preprocess_continuous(path):
 
